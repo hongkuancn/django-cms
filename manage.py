@@ -313,7 +313,7 @@ if __name__ == '__main__':
         PASSWORD_HASHERS=(
             'django.contrib.auth.hashers.MD5PasswordHasher',
         ),
-        ALLOWED_HOSTS=['localhost'],
+        ALLOWED_HOSTS=['localhost', '127.0.0.1'],
         TEST_RUNNER='django.test.runner.DiscoverRunner',
         MIGRATION_MODULES=MIGRATION_MODULES,
         # django 3.0
